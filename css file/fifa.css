@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+}
+/* header-part */
+.container{
+  max-width: 1414px;
+  margin: 50px auto;
+
+}
+.banner{
+ 
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  margin: 50px auto ;
+}
+.banner-left{
+  padding: 125px;
+ flex: 1;
+}
+.section-title{
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 70px;
+}
+.section-description{
+  color: #ffff;
+  margin: 15px 0;
+  max-width: 65%;
+}
+.btn-prymary{
+  background-color:rgba(221, 0, 0, 1) ;
+  padding: 16px 25px;
+  border-radius:5px ;
+  color: #ffff;
+  border: none;
+  font-weight: 600;
+}
+
+.banner-right{
+  flex: 1;
+}
+.banner-right img{
+  display: block;
+}
